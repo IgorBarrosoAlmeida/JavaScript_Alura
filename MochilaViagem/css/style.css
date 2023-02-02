@@ -118,6 +118,7 @@ html {
     width: 100%;
     box-sizing: border-box;
     display: inline-flex;
+    /* grid-template-columns: auto auto 1fr; */
     align-items: center;
     gap: 1em;
     font-size: 20px;
@@ -134,3 +135,11 @@ html {
     font-weight: 400;
 }
 
+.delButton {
+    border: none;
+    background: #FFFFFF;
+    color: #c00d00;
+    font-weight: bold;
+    font-size: 20px;
+    /*justify-self: flex-end;*/
+}

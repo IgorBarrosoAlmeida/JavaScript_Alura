@@ -31,7 +31,7 @@ form.addEventListener("submit", (evento) => {
 
         atualizaItem(itemAtual);
 
-        itens[itens.findIndex(elemento => elemento === existe.id)] = itemAtual;
+        itens[itens.findIndex(elemento => elemento.id === existe.id)] = itemAtual;
     } else{
         // Id do novo item é igual ao tamanho do vetor de itens
         itemAtual.id = itens[itens.length -1] ? (itens[itens.length -1].id) + 1 : 0;
